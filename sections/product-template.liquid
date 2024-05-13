@@ -186,7 +186,7 @@
 
                         <div class="product-media-container">
 
-                            <div class="product-media">
+                            <div class="product-media" data-dynamic-partial="media">
                             
                                 <div id="product-media-collage" class="gallery d-none d-md-block w-100">
 
@@ -283,7 +283,7 @@
 
                                         {% endif %}
 
-                                        {% if product.default_or_selected_variant.image %}
+                                        {% if product.default_or_selected_variant.image and product.has_only_default_variant == false %}
 
                                             {%- unless hasImg -%}
                                                 {%- assign hasImg = true -%}
@@ -593,7 +593,7 @@
                                             {%- assign imgSizeSm = '415,415' -%}
                                         {% endif %}
 
-                                        {% if product.default_or_selected_variant.image %}
+                                        {% if product.default_or_selected_variant.image and product.has_only_default_variant == false %}
 
                                             {%- unless hasImg -%}
                                                 {%- assign hasImg = true -%}
@@ -848,7 +848,7 @@
 
                     <div class="col-12 col-md-6 col-xxl-5 product-info-container" data-aos="{{ settings.sectionAnimation }}" data-aos-anchor="#finqu-section-{{ section.id }}">
 
-                        <div class="product-info mt-4 mt-md-0">
+                        <div class="product-info mt-4 mt-md-0" data-dynamic-partial="info">
 
                             {% if section.settings.showBreadcrumbs %}
 
@@ -1057,6 +1057,16 @@
                                                     name="quantity"
                                                     value="{{ product.min_quantity }}">
                                             {% endunless %}
+                                            
+                                            {% if section.settings.showRelatedProductsAsOptions and product.related.size > 0 or product.combined_listing.options_with_values.size > 0 %}
+
+                                                <div class="product-combined">
+
+                                                    {% render 'product-combined-options', product: product, showAsDropdown: section.settings.showVariantSelectionAsDropdown, showRelatedProductsAsOptions: section.settings.showRelatedProductsAsOptions %}
+
+                                                </div>
+
+                                            {% endif %}
 
                                             {% unless product.has_only_default_variant %}
 
@@ -1284,7 +1294,7 @@
 
                                                     {% endif %}
 
-                                                    {% if settings.accessibilityShowWishlist and section.settings.showBuyNowButton %}
+                                                    {% if settings.accessibilityShowWishlist and section.settings.showBuyNowButton and product.default_or_selected_variant.notifications_supported == false %}
 
                                                         <button
                                                             type="button"
@@ -1756,7 +1766,7 @@
 
             </div>
 
-            <div class="section-tabs section-tabs-fluid d-md-flex justify-content-md-center mt-7" data-aos="{{ settings.sectionAnimation }}">
+            <div class="section-tabs section-tabs-fluid d-md-flex justify-content-md-center mt-7" data-aos="{{ settings.sectionAnimation }}" data-dynamic-partial="tabs">
 
                 <div class="section-tabs-inner">
 
@@ -1793,7 +1803,7 @@
 
             </div>
 
-            <div class="section-tabs-content-container mt-4 mb-7">
+            <div class="section-tabs-content-container mt-4 mb-7" data-dynamic-partial="tabs-content">
 
                 {% if product.description %}
 
@@ -2132,7 +2142,7 @@
 
         </div>
 
-        {%- if rendered_partial != 'sections/product-template' -%}
+        <div data-dynamic-partial="additional">
 
             {% if product.similar.size > 0 or request.design_mode %}
 
@@ -2178,13 +2188,14 @@
                             {%- endif -%}
                             name: {{ product.title | json }},
                             manufacturer: {{ product.manufacturer.title | json }},
-                            currency: {{ store.currency.iso_code | json }}
+                            currency: {{ store.currency.iso_code | json }},
+                            breadcrumbs: {{ product.breadcrumbs | map: 'title' | json }}
                         }
                     }));
                 });
             </script>
 
-        {%- endif -%}
+        </div>
 
     {% endif %}
 
@@ -2192,7 +2203,19 @@
 
 {%- if rendered_partial == 'sections/product-template' -%}
 
-    {{- sectionContent -}}
+    {% if section.settings.showBreadcrumbs %}
+        {%- assign sectionBreadcrumbs = product.breadcrumbs -%}
+    {% endif %}
+
+    <div class="section-inner">
+
+        {% render 'section-header', sectionBreadcrumbs: sectionBreadcrumbs %}
+
+        <div class="section-content">
+            {{- sectionContent -}}
+        </div>
+
+    </div>
 
 {%- else -%}
 
@@ -2901,6 +2924,32 @@
                         },
                         "default": true,
                         "conditions": ["customDisplayInformation eq true"]
+                    },
+                    {
+                        "type": "title",
+                        "label": {
+                            "en": "Legacy settings",
+                            "fi": "Vanhat asetukset"
+                        }
+                    },
+                    {
+                        "type": "label",
+                        "label": {
+                            "en": "These settings are ment for backwards compatibility and should not be used if you are new merchant.",
+                            "fi": "Nämä asetukset on tarkoitettu taaksepäin yhteensopivuuteen ja niitä ei tulisi käyttää, jos olet uusi kauppias."
+                        }
+                    },
+                    {
+                        "type": "spacer"
+                    },
+                    {
+                        "id": "showRelatedProductsAsOptions",
+                        "type": "checkbox",
+                        "label": {
+                            "en": "Show related products as options",
+                            "fi": "Näytä liittyvät tuotteet valintoina"
+                        },
+                        "default": false
                     }
                 ]
             }
