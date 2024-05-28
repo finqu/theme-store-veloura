@@ -165,28 +165,28 @@
             "registerAdditionalInformation": false,
             "showPolicyAgreementAsText": false,
             "klarnaClientId": "",
-            "facebookPageUrl": "",
-            "instagramPageUrl": "",
-            "xPageUrl": "",
-            "whatsappPageUrl": "",
-            "snapchatPageUrl": "",
-            "pinterestPageUrl": "",
+            "facebookPageUrl": "#",
+            "instagramPageUrl": "#",
+            "xPageUrl": "#",
+            "whatsappPageUrl": "#",
+            "snapchatPageUrl": "#",
+            "pinterestPageUrl": "#",
             "youtubePageUrl": "",
             "linkedinPageUrl": "",
             "tumblrPageUrl": "",
             "redditPageUrl": "",
             "tiktokPageUrl": "",
             "ravelryPageUrl": "",
-            "newsletterPopup": false,
-            "newsletterPopupDelay": "5",
+            "newsletterPopup": true,
+            "newsletterPopupDelay": "10",
             "newsletterPopupCookieDuration": "86400",
             "newsletterPopupImg": {
-                "string_value": "https:\/\/images.unsplash.com\/photo-1469334031218-e382a71b716b",
-                "src": "https:\/\/images.unsplash.com\/photo-1469334031218-e382a71b716b",
-                "offset_top": "50",
-                "offset_left": "50",
-                "width": "800",
-                "height": "800"
+                "string_value": "https:\/\/images.unsplash.com\/photo-1523297467724-f6758d7124c5?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxM3x8ZmFzaGlvbnxlbnwwfHwxfGJsYWNrfDE3MTQ4MTQzODd8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                "src": "https:\/\/images.unsplash.com\/photo-1523297467724-f6758d7124c5?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxM3x8ZmFzaGlvbnxlbnwwfHwxfGJsYWNrfDE3MTQ4MTQzODd8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                "offset_top": "28",
+                "offset_left": "44",
+                "width": "4785",
+                "height": "3456"
             },
             "schemaWebsite": true,
             "schemaOrganization": true,
@@ -204,15 +204,16 @@
                     "gridContainer": "fluid",
                     "headerItemsPaddingY": "1.4rem",
                     "logoImg": {
-                        "string_value": "",
-                        "src": "",
+                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/veloura-logo.png",
+                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/veloura-logo.png",
                         "offset_top": "",
                         "offset_left": "",
-                        "width": "",
-                        "height": ""
+                        "width": "109",
+                        "height": "502"
                     },
                     "logoSize": "120",
                     "logoPosition": "center",
+                    "mobileLogoSize": "100",
                     "mobileLogoPosition": "center",
                     "menu": "main",
                     "menuItemsAlign": "start",
@@ -221,7 +222,83 @@
                     "mobileMenuSecondary": "",
                     "mobileNavigationSimple": false,
                     "mobileShowSocialIconsInNavigation": true,
-                    "mobileShowSearchInNavigation": true
+                    "mobileShowSearchInNavigation": true,
+                    "setting_blocks": {
+                        "megamenus": {
+                            "9ac1033e-45f5-49f9-8e83-6bed72e2fdb2": {
+                                "type": "menu",
+                                "settings": {
+                                    "index": "2",
+                                    "colPerRow": "4",
+                                    "menu": "",
+                                    "promotion1Img": {
+                                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-yellow-bag.jpeg",
+                                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-yellow-bag.jpeg",
+                                        "offset_top": "50",
+                                        "offset_left": "50",
+                                        "width": "2667",
+                                        "height": "4000"
+                                    },
+                                    "promotion1ImgAspectRatio": "16:9",
+                                    "promotion1Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "Kest\u00e4v\u00e4 muoti",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion2Img": {
+                                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-woman-bluebg.jpeg",
+                                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-woman-bluebg.jpeg",
+                                        "offset_top": "50",
+                                        "offset_left": "50",
+                                        "width": "4480",
+                                        "height": "6720"
+                                    },
+                                    "promotion2ImgAspectRatio": "16:9",
+                                    "promotion2Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "T\u00e4ydelliset yhdess\u00e4",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion3Img": {
+                                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-colorful-woman.jpeg",
+                                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-colorful-woman.jpeg",
+                                        "offset_top": "50",
+                                        "offset_left": "50",
+                                        "width": "6698",
+                                        "height": "4465"
+                                    },
+                                    "promotion3ImgAspectRatio": "16:9",
+                                    "promotion3Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "Uutta vanhaa",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion4Img": {
+                                        "string_value": "https:\/\/images.unsplash.com\/photo-1584216338898-f34d78201414?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                        "src": "https:\/\/images.unsplash.com\/photo-1584216338898-f34d78201414?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                        "offset_top": "50",
+                                        "offset_left": "50",
+                                        "width": "5184",
+                                        "height": "3456"
+                                    },
+                                    "promotion4ImgAspectRatio": "16:9",
+                                    "promotion4Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "Katumuodin parhaat",
+                                        "url": "",
+                                        "target": "_self"
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             },
             {
@@ -240,7 +317,7 @@
                                     "announcementLink": {
                                         "type": "url",
                                         "record_id": "",
-                                        "text": "Luo ensimm\u00e4inen ilmoituksesi! Kerro asiakkaille tarjouksista ja tapahtumista.",
+                                        "text": "Kotimainen verkkokauppa  -  Nopea toimitus  -  Maksamme postikulut yli 100\u20ac tilauksista",
                                         "url": "",
                                         "target": "_self"
                                     }
@@ -254,11 +331,6 @@
                 "id": "footer",
                 "name": "footer",
                 "settings": {
-                    "footerGap": "4.5rem",
-                    "footerPaddingTop": "6.8rem",
-                    "footerPaddingBottom": "2.7rem",
-                    "footerBottomBorder": true,
-                    "footerBottomBorderFluid": true,
                     "footerTextArea1Title": "",
                     "footerTextArea1Content": "<p>Tervetuloa verkkokauppaan! Olemme ylpeit\u00e4 tarjotessamme sinulle sujuvan ja ilahduttavan ostoskokemuksen. Sitoutuneina asiakastyytyv\u00e4isyyteen pyrimme tarjoamaan sinulle uusimmat trendit, ly\u00f6m\u00e4tt\u00f6m\u00e4t hinnat ja vertaansa vailla olevan palvelun.<\/p>",
                     "footerTextArea2Content": "<p>\u00a9 2024 Veloura<\/p>",
@@ -282,16 +354,23 @@
                         "width": "",
                         "height": ""
                     },
-                    "footerMenu1Title": "Pikalinkit",
+                    "footerMenu1Title": "",
                     "footerMenu1": "footer",
                     "footerMenu2Title": "",
                     "footerMenu2": "",
                     "footerMenu3Title": "",
                     "footerMenu3": "",
-                    "footerLayout": "2",
-                    "footerTextArea1Status": true,
+                    "footerGap": "4.5rem",
+                    "footerPaddingTop": "6.8rem",
+                    "footerPaddingBottom": "2.7rem",
+                    "footerTopBorder": "",
+                    "footerTopBorderFluid": "",
+                    "footerBottomBorder": true,
+                    "footerBottomBorderFluid": true,
+                    "footerLayout": "4",
+                    "footerTextArea1Status": false,
                     "footerTextArea2Status": true,
-                    "footerNewsletterStatus": true,
+                    "footerNewsletterStatus": false,
                     "footerSocialMediaButtonsStatus": true,
                     "footerPaymentMethodsStatus": true,
                     "footerLogoStatus": true
@@ -307,8 +386,8 @@
                         "name": "hero-split-images",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "Uusi mahtava Hero-otsikko!",
-                            "sectionSubtitle": "Kerro asiakkaillesi t\u00e4st\u00e4 Hero-osiosta.",
+                            "sectionTitle": "Muotimaailmasi netiss\u00e4!",
+                            "sectionSubtitle": "Tutustu uusimpiin trendeihin, jotka on valittu juuri sinua varten. Meill\u00e4 on kaikki, mit\u00e4 tarvitset p\u00e4ivitt\u00e4\u00e4ksesi tyyli\u00e4si joka kausi.",
                             "btnLink": {
                                 "type": "url",
                                 "record_id": "",
@@ -343,12 +422,14 @@
                             "textHorizontalAlign": "center",
                             "textVerticalAlign": "center",
                             "btnStyle": "nil",
-                            "imgDimming": "20",
+                            "sectionHeaderFontSizeScale": "1.2",
+                            "imgDimming": "30",
                             "imgBlur": "0",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": "dark",
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
                             "sectionMinHeight": "80"
                         },
@@ -359,17 +440,28 @@
                         "title": "Kampanjabanneri",
                         "name": "promotion-banner",
                         "settings": {
-                            "bannerLayout": 2,
-                            "discountCode": "KES\u00c420",
-                            "title": "Uusi mahtava kampanja",
+                            "bannerLayout": "2",
+                            "title": "Poimi kassalla 30% alennus koodilla:",
+                            "discountCode": "VELOURA30",
+                            "datetime": "",
                             "btnLink": {
-                                "text": "Shoppaile nyt"
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
                             },
                             "sectionTextAlign": "center",
+                            "btnStyle": "nil",
+                            "datetimeZeroPad": true,
+                            "datetimeHideTimeUnitOnZero": false,
+                            "datetimeShowYears": false,
+                            "datetimeShowMonths": false,
+                            "sectionColorScheme": "accent",
+                            "style_custom_color": "#f3f5f6",
                             "sectionPaddingMode": "custom",
-                            "sectionPaddingTop": "1.5",
-                            "sectionPaddingBottom": "1.5",
-                            "sectionColorScheme": "accent"
+                            "sectionPaddingTop": "2",
+                            "sectionPaddingBottom": "2"
                         },
                         "blocks": []
                     },
@@ -379,12 +471,12 @@
                         "name": "product-carousel",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "Uudet tulokkaat",
-                            "sectionSubtitle": "",
+                            "sectionTitle": "Mekot",
+                            "sectionSubtitle": "Osta kauden kuumia uutuuksia",
                             "sectionQuickLinkResource": {
                                 "type": "url",
                                 "record_id": "",
-                                "text": "",
+                                "text": "Katso kaikki",
                                 "url": ""
                             },
                             "listType": "recent",
@@ -434,19 +526,21 @@
                             },
                             "promotionImgDimming": "20",
                             "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
                             "sectionTextAlign": "nil",
                             "sectionQuickLinkStyle": "nil",
                             "carouselStyle": "1",
-                            "carouselNavigation": "",
+                            "carouselNavigation": "hover",
                             "carouselPagination": "",
                             "carouselAutoplaySpeed": "0",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
                             "sectionPaddingMode": "auto",
-                            "sectionPaddingTop": "0",
+                            "sectionPaddingTop": "8",
                             "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
@@ -462,54 +556,59 @@
                         "blocks": []
                     },
                     {
-                        "id": "9909c22273274729b9dff55a4e6dd22b",
-                        "title": "Hero jaettu sis\u00e4lt\u00f6",
-                        "name": "hero-split-content",
+                        "id": "4e7c285a64842a2136a4a1c6cad244b5",
+                        "title": "Hero",
+                        "name": "hero",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "Uusi mahtava Hero-otsikko!",
-                            "sectionSubtitle": "Kerro asiakkaillesi t\u00e4st\u00e4 Hero-osiosta.",
+                            "sectionTitle": "Kest\u00e4v\u00e4n muodin edell\u00e4k\u00e4vij\u00e4",
+                            "sectionSubtitle": "Sitoudumme tarjoamaan vain parasta laadukkaiden ja kest\u00e4v\u00e4sti tuotettujen vaatekappaleiden kautta. Tukea tyyli\u00e4si ja planeettaa valinnoillasi.",
                             "btnLink": {
                                 "type": "url",
                                 "record_id": "",
-                                "text": "Shoppaile nyt",
+                                "text": "Kest\u00e4v\u00e4t valinnat",
                                 "url": "",
                                 "target": "_self"
                             },
-                            "img": {
-                                "string_value": "https:\/\/images.unsplash.com\/photo-1537212013010-de9c76f8f0ae",
-                                "src": "https:\/\/images.unsplash.com\/photo-1537212013010-de9c76f8f0ae",
+                            "sectionBgImg": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1542812720-b51be06566ab?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyOHx8d29tZW4lMjBmYXNoaW9ufGVufDB8MHwxfGJsYWNrfDE3MTQ4OTg1NjZ8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1542812720-b51be06566ab?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyOHx8d29tZW4lMjBmYXNoaW9ufGVufDB8MHwxfGJsYWNrfDE3MTQ4OTg1NjZ8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
                                 "offset_top": "50",
                                 "offset_left": "50",
-                                "width": "710",
-                                "height": "1080"
+                                "width": "2161",
+                                "height": "3840"
                             },
                             "textHorizontalAlign": "center",
                             "textVerticalAlign": "center",
                             "btnStyle": "nil",
-                            "imgDimming": "0",
-                            "imgBlur": "0",
+                            "sectionHeaderFontSizeScale": "1.3",
+                            "sectionBgImgDimming": "20",
+                            "sectionBgImgBlur": "0",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": "dark",
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
-                            "sectionMinHeight": "80"
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionHeight": "70"
                         },
                         "blocks": []
                     },
                     {
-                        "id": "d9df7a838e4966a6434d20683a338391",
-                        "title": "Tuotelista",
-                        "name": "product-list",
+                        "id": "9578e6ec8f40e2bbf64531d01ec28e90",
+                        "title": "Tuotekaruselli",
+                        "name": "product-carousel",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "Suosittelemme",
-                            "sectionSubtitle": "",
+                            "sectionTitle": "Asusteet",
+                            "sectionSubtitle": "Yksil\u00f6i tyylisi upeilla asusteilla",
                             "sectionQuickLinkResource": {
                                 "type": "url",
                                 "record_id": "",
-                                "text": "",
+                                "text": "Katso kaikki",
                                 "url": ""
                             },
                             "listType": "recent",
@@ -524,7 +623,7 @@
                                 "id": "",
                                 "name": ""
                             },
-                            "productAmount": "6",
+                            "productAmount": "8",
                             "customDisplayInformation": false,
                             "productPerRow": "3",
                             "showProductName": true,
@@ -539,13 +638,38 @@
                             "showAddToCart": true,
                             "showStockBalance": true,
                             "showVariants": true,
+                            "showPromotionSlide": false,
+                            "promotionText": "",
+                            "promotionLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "promotionTextColor": "#ffffff",
+                            "promotionImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "promotionImgDimming": "20",
                             "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
                             "sectionTextAlign": "nil",
                             "sectionQuickLinkStyle": "nil",
+                            "carouselStyle": "1",
+                            "carouselNavigation": "hover",
+                            "carouselPagination": "",
+                            "carouselAutoplaySpeed": "0",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
@@ -564,20 +688,120 @@
                         "blocks": []
                     },
                     {
-                        "id": "993ed10ac0f1394b35feaabaa7418027",
-                        "title": "Kuvakkeet tekstin kanssa",
-                        "name": "icons-with-text",
+                        "id": "61c6532b488eac10f3a19a28600d5d10",
+                        "title": "Hero",
+                        "name": "hero",
                         "settings": {
-                            "orientation": "horizontal",
                             "sectionOverline": "",
-                            "sectionTitle": "",
-                            "sectionSubtitle": "",
-                            "sectionContainer": "nil",
-                            "sectionTextAlign": "center",
+                            "sectionTitle": "Eksklusiivisia tarjouksia vain Sinulle",
+                            "sectionSubtitle": "Rekister\u00f6idy nyt saadaksesi p\u00e4\u00e4syn j\u00e4senille tarkoitettuihin etuihin ja eksklusiivisiin alennuksiin. Liity muotitietoisten yhteis\u00f6\u00f6mme ja nauti ensimm\u00e4isen\u00e4 tietoa uutuuksistamme ja kampanjoistamme.",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "Liity mukaan",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "sectionBgImg": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1584216338898-f34d78201414?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1584216338898-f34d78201414?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "18",
+                                "offset_left": "59",
+                                "width": "5184",
+                                "height": "3456"
+                            },
+                            "textHorizontalAlign": "center",
+                            "textVerticalAlign": "center",
+                            "btnStyle": "nil",
+                            "sectionHeaderFontSizeScale": "1.3",
+                            "sectionBgImgDimming": "20",
+                            "sectionBgImgBlur": "0",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": "dark",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionHeight": "70"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "840da3b1a4e914d2619b229c7ff81648",
+                        "title": "Tuotekaruselli",
+                        "name": "product-carousel",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Keng\u00e4t",
+                            "sectionSubtitle": "Tyylikk\u00e4\u00e4t keng\u00e4t viimeistelev\u00e4t kokonaisuuden",
+                            "sectionQuickLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "Katso kaikki",
+                                "url": ""
+                            },
+                            "listType": "recent",
+                            "tagId": "",
+                            "category": {
+                                "type": "category",
+                                "id": "",
+                                "name": ""
+                            },
+                            "manufacturer": {
+                                "type": "manufacturer",
+                                "id": "",
+                                "name": ""
+                            },
+                            "productAmount": "8",
+                            "customDisplayInformation": false,
+                            "productPerRow": "3",
+                            "showProductName": true,
+                            "showManufacturer": true,
+                            "showPromotion": true,
+                            "showPricing": true,
+                            "showRating": true,
+                            "showNewBadge": true,
+                            "showPromotionBadge": true,
+                            "showDiscountBadge": true,
+                            "showOutOfStockBadge": true,
+                            "showAddToCart": true,
+                            "showStockBalance": true,
+                            "showVariants": true,
+                            "showPromotionSlide": false,
+                            "promotionText": "",
+                            "promotionLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "promotionTextColor": "#ffffff",
+                            "promotionImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "promotionImgDimming": "20",
+                            "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionTextAlign": "nil",
+                            "sectionQuickLinkStyle": "nil",
+                            "carouselStyle": "1",
+                            "carouselNavigation": "hover",
+                            "carouselPagination": "",
+                            "carouselAutoplaySpeed": "0",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
@@ -591,126 +815,204 @@
                                 "height": ""
                             },
                             "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "16ef504b823716e0e61cab386b1b4083",
+                        "title": "Otsikko",
+                        "name": "heading",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "\u00c4l\u00e4 missaa t\u00e4t\u00e4",
+                            "sectionSubtitle": "",
+                            "sectionContainer": "nil",
+                            "sectionHeaderTextAlign": "center",
+                            "sectionHeaderFontSizeScale": "1.4",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "3",
+                            "sectionPaddingBottom": "5",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "09e5981f31466ab556b011d69206b674",
+                        "title": "Tuotemainos",
+                        "name": "product-promotion",
+                        "settings": {
+                            "product": {
+                                "type": "product",
+                                "id": "26239528",
+                                "name": "Painokuvioitu napitettava midimittainen camimekko palm leaf"
+                            },
+                            "showManufacturer": true,
+                            "showPromotion": true,
+                            "showPricing": true,
+                            "showRating": true,
+                            "showDescription": true,
+                            "sectionTextAlign": "nil",
+                            "sectionTitleTag": "h3",
+                            "btnStyle": "nil",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "2",
+                            "sectionPaddingBottom": "9",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "2607e36355fadb5b84db1d31518869c7",
+                        "title": "Otsikko",
+                        "name": "heading",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Annan ohjeet t\u00e4ydellisen tyylin valintaan",
+                            "sectionSubtitle": "",
+                            "sectionContainer": "nil",
+                            "sectionHeaderTextAlign": "center",
+                            "sectionHeaderFontSizeScale": "1.4",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "dark",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "a2b3fffd548c25ef9a13f6fdc7a464d8",
+                        "title": "V\u00e4lilehdet kuvalla",
+                        "name": "accordion-tabs",
+                        "settings": {
+                            "accordionLayout": "2",
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "img": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1523297467724-f6758d7124c5?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxM3x8ZmFzaGlvbnxlbnwwfHwxfGJsYWNrfDE3MTQ4MTQzODd8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1523297467724-f6758d7124c5?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxM3x8ZmFzaGlvbnxlbnwwfHwxfGJsYWNrfDE3MTQ4MTQzODd8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "39",
+                                "offset_left": "46",
+                                "width": "4785",
+                                "height": "3456"
+                            },
+                            "includeFaqSchema": false,
+                            "sectionContainer": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "imgPosition": "start",
+                            "imgAspectRatio": "1:1",
+                            "imgFit": true,
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "dark",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
                             "sectionBgImgBlur": "0",
                             "setting_blocks": {
-                                "items": [
-                                    {
+                                "items": {
+                                    "3136312542826423": {
                                         "type": "text",
                                         "settings": {
-                                            "iconFormat": "svg",
-                                            "img": {
-                                                "string_value": "",
-                                                "src": "",
-                                                "offset_top": "",
-                                                "offset_left": "",
-                                                "width": "",
-                                                "height": ""
-                                            },
-                                            "svgContent": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"-0.5 -0.5 24 24\"><g><path d=\"M19.67,14.87h1.51c.52-.04.91-.49.88-1.01v-7.47c.09-1.56-1.08-2.9-2.64-3.03h-5.27v11.5\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M19.67,14.87c0-1.19-.97-2.16-2.16-2.16s-2.16.97-2.16,2.16h0c0,1.19.97,2.16,2.16,2.16,1.19,0,2.16-.97,2.16-2.16\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M8.41,14.87c0-1.19-.97-2.16-2.16-2.16s-2.16.97-2.16,2.16.97,2.16,2.16,2.16,2.16-.97,2.16-2.16\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M17.03,3.37v3.47s0,.03,0,.04c.01.45.38.81.83.79h4.2\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M8.41,14.87h6.95\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M19.71,11.03h2.36\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M.5,1.94c0-.79.64-1.44,1.44-1.44h10.78c.79,0,1.44.64,1.44,1.44v8.14s-13.66,0-13.66,0V1.94Z\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M.5,10.07v3.35c0,.79.64,1.44,1.44,1.44h2.16\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><\/g><\/svg>",
-                                            "title": "Toimitus",
-                                            "richtext": "<p>Kirjoita t\u00e4h\u00e4n lyhyt kuvaus.<\/p>"
+                                            "title": "Muoti, joka kertoo tarinasi",
+                                            "richtext": "<p>Tutustu kokoelmiimme, jotka on suunniteltu heijastamaan persoonallisuuttasi ja el\u00e4m\u00e4ntarinaasi. Valitse vaatteet, jotka kertovat enemm\u00e4n kuin tuhat sanaa\u2014valitse tyyli, joka on yht\u00e4 ainutlaatuinen kuin sin\u00e4.<\/p>"
                                         }
                                     },
-                                    {
+                                    "1485272252048968": {
                                         "type": "text",
                                         "settings": {
-                                            "iconFormat": "svg",
-                                            "img": {
-                                                "string_value": "",
-                                                "src": "",
-                                                "offset_top": "",
-                                                "offset_left": "",
-                                                "width": "",
-                                                "height": ""
-                                            },
-                                            "svgContent": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"-0.5 -0.5 24 24\"><path d=\"m5.03125 20.840875 -4.3125 -4.3125 4.3125 -4.3125\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M0.71875 16.528375h14.375a7.1875 7.1875 0 0 0 0 -14.375h-5.75\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><\/svg>",
-                                            "title": "Palautus",
-                                            "richtext": "<p>Kirjoita t\u00e4h\u00e4n lyhyt kuvaus.<\/p>"
+                                            "title": "Tyyli\u00e4 jokaiseen hetkeen",
+                                            "richtext": "<p>Etsitp\u00e4 sitten t\u00e4ydellist\u00e4 asua ty\u00f6p\u00e4iv\u00e4\u00e4n, rentoa viikonlopputyyli\u00e4 tai juhlien loistetta, meilt\u00e4 l\u00f6yd\u00e4t vaatteet kaikkiin el\u00e4m\u00e4si hetkiin. Anna meid\u00e4n auttaa sinua loistamaan joka p\u00e4iv\u00e4, joka tilanteessa.<\/p>"
                                         }
                                     },
-                                    {
+                                    "3497938686528596": {
                                         "type": "text",
                                         "settings": {
-                                            "iconFormat": "svg",
-                                            "img": {
-                                                "string_value": "",
-                                                "src": "",
-                                                "offset_top": "",
-                                                "offset_left": "",
-                                                "width": "",
-                                                "height": ""
-                                            },
-                                            "svgContent": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"-0.5 -0.5 24 24\"><path d=\"M4.3125 17.25h-0.71875a2.875 2.875 0 0 1 -2.875 -2.875v-2.875a2.875 2.875 0 0 1 2.875 -2.875h0.71875a0.71875 0.71875 0 0 1 0.71875 0.71875v7.1875a0.71875 0.71875 0 0 1 -0.71875 0.71875Z\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M19.40625 17.25h-0.71875a0.71875 0.71875 0 0 1 -0.71875 -0.71875v-7.1875A0.71875 0.71875 0 0 1 18.6875 8.625h0.71875a2.875 2.875 0 0 1 2.875 2.875v2.875a2.875 2.875 0 0 1 -2.875 2.875Z\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M3.59375 8.625A7.90625 7.90625 0 0 1 11.5 0.71875h0A7.90625 7.90625 0 0 1 19.40625 8.625\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M14.375 20.84375h2.15625a2.875 2.875 0 0 0 2.875 -2.875h0V17.25\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M12.9375 22.28125H11.5a1.4375 1.4375 0 0 1 -1.4375 -1.4375h0a1.4375 1.4375 0 0 1 1.4375 -1.4375h1.4375a1.4375 1.4375 0 0 1 1.4375 1.4375h0a1.4375 1.4375 0 0 1 -1.4375 1.4375Z\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><\/svg>",
-                                            "title": "Asiakaspalvelu",
-                                            "richtext": "<p>Kirjoita t\u00e4h\u00e4n lyhyt kuvaus.<\/p>"
+                                            "title": "Pue itsesi huomiseen",
+                                            "richtext": "<p>Ole askeleen edell\u00e4 muotimaailmassa valikoimallamme, joka tuo huomisen trendit sinulle jo t\u00e4n\u00e4\u00e4n. P\u00e4ivit\u00e4 garderoobisi futuristisilla leikkauksilla ja edell\u00e4k\u00e4vij\u00e4n designilla, joka erottaa sinut massasta.<\/p>"
                                         }
                                     },
-                                    {
+                                    "1318417319946211": {
                                         "type": "text",
                                         "settings": {
-                                            "iconFormat": "svg",
-                                            "img": {
-                                                "string_value": "",
-                                                "src": "",
-                                                "offset_top": "",
-                                                "offset_left": "",
-                                                "width": "",
-                                                "height": ""
-                                            },
-                                            "svgContent": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"-0.5 -0.5 24 24\"><path d=\"M2.15625 3.59375h18.6875s1.4375 0 1.4375 1.4375v12.9375s0 1.4375 -1.4375 1.4375H2.15625s-1.4375 0 -1.4375 -1.4375V5.03125s0 -1.4375 1.4375 -1.4375\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"m0.71875 7.90625 21.5625 0\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"m5.03125 12.21875 7.90625 0\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"m5.03125 15.09375 5.03125 0\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><\/svg>",
-                                            "title": "Maksutavat",
-                                            "richtext": "<p>Kirjoita t\u00e4h\u00e4n lyhyt kuvaus.<\/p>"
+                                            "title": "Loista tyylill\u00e4, el\u00e4 muodilla",
+                                            "richtext": "<p>El\u00e4 jokainen p\u00e4iv\u00e4 kuin se olisi muotin\u00e4yt\u00f6ksen catwalk. Tarjoamme uusimmat trendit ja ajattomat klassikot, jotta voit loistaa ja el\u00e4\u00e4 t\u00e4ysill\u00e4 \u2013 tyylikk\u00e4\u00e4sti.<\/p>"
+                                        }
+                                    },
+                                    "8553285446493293": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "Muotia, joka inspiroi",
+                                            "richtext": "<p>Inspiroi ymp\u00e4rill\u00e4si olevia ainutlaatuisella tyylill\u00e4si. Meid\u00e4t on omistettu tuomaan sinulle vaatteita, jotka eiv\u00e4t ainoastaan n\u00e4yt\u00e4 hyvilt\u00e4, vaan saavat sinut tuntemaan olosi voimaantuneeksi ja valmiiksi valloittamaan maailman.<\/p>"
                                         }
                                     }
-                                ]
+                                }
                             }
                         },
                         "blocks": []
                     },
                     {
-                        "id": "2594750f077a4055ce20278c2bfc7c50",
-                        "title": "Kuvia tekstin kanssa",
-                        "name": "images-with-text",
-                        "settings": {
-                            "sectionTitle": "Uusi mahtava otsikko",
-                            "richtext": "<p>Lis\u00e4\u00e4 kuvat ja kerro niist\u00e4 asiakkaillesi tai k\u00e4yt\u00e4 sit\u00e4 tuotteesi, artikkelisi tai br\u00e4ndisi esittelyyn.<\/p>",
-                            "btnStyle": "primary",
-                            "btnLink": {
-                                "type": "url",
-                                "record_id": "",
-                                "text": "Shoppaile nyt",
-                                "url": "",
-                                "target": "_self"
-                            },
-                            "img1": {
-                                "string_value": "https:\/\/images.unsplash.com\/photo-1546177461-668e7784915e",
-                                "src": "https:\/\/images.unsplash.com\/photo-1546177461-668e7784915e",
-                                "offset_top": "50",
-                                "offset_left": "50",
-                                "width": "720",
-                                "height": "1080"
-                            },
-                            "img2": {
-                                "string_value": "https:\/\/images.unsplash.com\/photo-1546177461-3283e4aa3b0c",
-                                "src": "https:\/\/images.unsplash.com\/photo-1546177461-3283e4aa3b0c",
-                                "offset_top": "50",
-                                "offset_left": "50",
-                                "width": "720",
-                                "height": "1080"
-                            }
-                        },
-                        "blocks": []
-                    },
-                    {
-                        "id": "0334a770402cdec2503bf009bd817b1f",
+                        "id": "ee27c77df35dd88868c1dd62bd739df2",
                         "title": "Suosittelukaruselli",
                         "name": "testimonial-carousel",
                         "settings": {
                             "sectionInnerGap": "5rem",
                             "sectionOverline": "",
-                            "sectionTitle": "Asiakkaiden kommentteja",
+                            "sectionTitle": "Mit\u00e4 asiakkaamme ovat sanoneet?",
                             "sectionSubtitle": "",
-                            "carouselItemsPerView": "1",
+                            "carouselItemsPerView": "3",
                             "sectionHighlightItems": "nil",
                             "sectionTextAlign": "center",
                             "imgShape": "default",
@@ -718,12 +1020,13 @@
                             "showQuotes": true,
                             "carouselStyle": "1",
                             "carouselNavigation": "hover",
-                            "carouselPagination": "hover",
+                            "carouselPagination": "on",
                             "carouselAutoplaySpeed": "0",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
@@ -739,78 +1042,187 @@
                             "sectionBgImgDimming": "0",
                             "sectionBgImgBlur": "0",
                             "setting_blocks": {
-                                "items": [
-                                    {
+                                "items": {
+                                    "3136312542826423": {
                                         "type": "text",
                                         "settings": {
                                             "heading": "",
-                                            "description": "<p>Kirjoita asiakaskommentti t\u00e4h\u00e4n.<\/p>",
-                                            "author": "Kirjoittaja",
-                                            "authorInfo": "Lis\u00e4tiedot",
+                                            "description": "<p>Olen tilannut jo useamman kerran ja jokainen kerta on ylitt\u00e4nyt odotukseni! Laatu on huippuluokkaa ja asiakaspalvelu vastaa nopeasti ja yst\u00e4v\u00e4llisesti kaikkiin kysymyksiini.<\/p>",
+                                            "author": "Laura",
+                                            "authorInfo": "Helsinki",
                                             "resource": {
                                                 "type": "url",
                                                 "record_id": "",
                                                 "url": "",
                                                 "target": "_self"
                                             },
+                                            "rating": "5",
                                             "img": {
-                                                "string_value": "",
-                                                "src": "",
-                                                "offset_top": "",
-                                                "offset_left": "",
-                                                "width": "",
-                                                "height": ""
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1548624313-0396c75e4b1a?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyOXx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1548624313-0396c75e4b1a?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyOXx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "29",
+                                                "offset_left": "51",
+                                                "width": "3707",
+                                                "height": "2471"
                                             }
                                         }
                                     },
-                                    {
+                                    "1485272252048968": {
                                         "type": "text",
                                         "settings": {
                                             "heading": "",
-                                            "description": "<p>Kirjoita asiakaskommentti t\u00e4h\u00e4n.<\/p>",
-                                            "author": "Kirjoittaja",
-                                            "authorInfo": "Lis\u00e4tiedot",
+                                            "description": "<p>L\u00f6yd\u00e4n aina jotain uutta ja innostavaa t\u00e4\u00e4lt\u00e4. Veloura pit\u00e4\u00e4 huolen siit\u00e4, ett\u00e4 pysyn ajan tasalla viimeisimmist\u00e4 trendeist\u00e4. Toimitus on my\u00f6s aina nopea ja luotettava<\/p>",
+                                            "author": "Aino",
+                                            "authorInfo": "Lahti",
                                             "resource": {
                                                 "type": "url",
                                                 "record_id": "",
                                                 "url": "",
                                                 "target": "_self"
                                             },
+                                            "rating": "5",
                                             "img": {
-                                                "string_value": "",
-                                                "src": "",
-                                                "offset_top": "",
-                                                "offset_left": "",
-                                                "width": "",
-                                                "height": ""
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1618349144407-f9062dd13caa?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxmYXNoaW9uJTIwd2ludGVyfGVufDB8fDF8fDE3MTQ4MDk5NDB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1618349144407-f9062dd13caa?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxmYXNoaW9uJTIwd2ludGVyfGVufDB8fDF8fDE3MTQ4MDk5NDB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "29",
+                                                "offset_left": "53",
+                                                "width": "4240",
+                                                "height": "2832"
                                             }
                                         }
                                     },
-                                    {
+                                    "3497938686528596": {
                                         "type": "text",
                                         "settings": {
                                             "heading": "",
-                                            "description": "<p>Kirjoita asiakaskommentti t\u00e4h\u00e4n.<\/p>",
-                                            "author": "Kirjoittaja",
-                                            "authorInfo": "Lis\u00e4tiedot",
+                                            "description": "<p>Rakastan Velouran kest\u00e4v\u00e4n kehityksen mallistoa. On mahtavaa, ett\u00e4 voin pukeutua tyylikk\u00e4\u00e4sti samalla kun tuen ymp\u00e4rist\u00f6yst\u00e4v\u00e4llisi\u00e4 k\u00e4yt\u00e4nt\u00f6j\u00e4.<\/p>",
+                                            "author": "Marja",
+                                            "authorInfo": "Kokkola",
                                             "resource": {
                                                 "type": "url",
                                                 "record_id": "",
                                                 "url": "",
                                                 "target": "_self"
                                             },
+                                            "rating": "5",
                                             "img": {
-                                                "string_value": "",
-                                                "src": "",
-                                                "offset_top": "",
-                                                "offset_left": "",
-                                                "width": "",
-                                                "height": ""
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1584216338898-f34d78201414?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1584216338898-f34d78201414?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "25",
+                                                "offset_left": "51",
+                                                "width": "5184",
+                                                "height": "3456"
+                                            }
+                                        }
+                                    },
+                                    "2d1752fa-067f-404d-90a2-05200b3e3446": {
+                                        "type": "text",
+                                        "settings": {
+                                            "heading": "",
+                                            "description": "<p>Joka kerta kun etsin jotain erityist\u00e4, p\u00e4\u00e4dyin Velouran sivustolle. Heid\u00e4n ainutlaatuinen valikoimansa tekee vaateostoksista todella j\u00e4nnitt\u00e4v\u00e4\u00e4.<\/p>",
+                                            "author": "Hannele",
+                                            "authorInfo": "Riihim\u00e4ki ",
+                                            "resource": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "rating": "5",
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1521402966881-852a3b2551fc?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwd2ludGVyfGVufDB8fDF8fDE3MTQ4MDk5NDB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1521402966881-852a3b2551fc?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwd2ludGVyfGVufDB8fDF8fDE3MTQ4MDk5NDB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "30",
+                                                "offset_left": "53",
+                                                "width": "5605",
+                                                "height": "3737"
+                                            }
+                                        }
+                                    },
+                                    "c73b1232-a4f3-4864-9094-e84fcf82aacf": {
+                                        "type": "text",
+                                        "settings": {
+                                            "heading": "",
+                                            "description": "<p>Palasin juuri hakemasta paketin ja olen t\u00e4ysin rakastunut ostoksiini! Velouran asiakaspalvelu on my\u00f6s ensiluokkaista \u2013 he todella v\u00e4litt\u00e4v\u00e4t asiakkaistaan.<\/p>",
+                                            "author": "Anne",
+                                            "authorInfo": "Espoo",
+                                            "resource": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "rating": "5",
+                                            "img": {
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-woman-black-bluebg.jpeg",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-woman-black-bluebg.jpeg",
+                                                "offset_top": "18",
+                                                "offset_left": "51",
+                                                "width": "5600",
+                                                "height": "4480"
+                                            }
+                                        }
+                                    },
+                                    "81864c92-5d33-4dd0-9366-818c342c783f": {
+                                        "type": "text",
+                                        "settings": {
+                                            "heading": "",
+                                            "description": "<p>Ostin kes\u00e4ksi mekon ja se oli t\u00e4ydellinen. Verkkosivu oli helppok\u00e4ytt\u00f6inen, ja tuotekuvaukset auttoivat minua valitsemaan juuri oikean tuotteen.<\/p>",
+                                            "author": "Susanne",
+                                            "authorInfo": "Tampere",
+                                            "resource": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "rating": "5",
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1550928431-ee0ec6db30d3?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxMnx8ZmFzaGlvbiUyMHNwcmluZ3xlbnwwfHwxfHwxNzE0ODA5ODgyfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1550928431-ee0ec6db30d3?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxMnx8ZmFzaGlvbiUyMHNwcmluZ3xlbnwwfHwxfHwxNzE0ODA5ODgyfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "8",
+                                                "offset_left": "65",
+                                                "width": "2953",
+                                                "height": "1969"
                                             }
                                         }
                                     }
-                                ]
+                                }
                             }
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "86c8852c7c4c4742d63b04fc07c22329",
+                        "title": "Uutiskirje",
+                        "name": "newsletter",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Tilaa uutiskirjeemme ja pysyt ajan tasalla",
+                            "sectionSubtitle": "",
+                            "richtext": "<p>Liity ekslusiiviseen muotitietoisten yhteis\u00f6\u00f6mme ja nauti ensimm\u00e4isen\u00e4 tietoa uutuuksistamme ja kampanjoistamme.<\/p>",
+                            "sectionHighlightItems": "nil",
+                            "sectionTextAlign": "center",
+                            "showSocialMediaIcons": false,
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "dark",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "7",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1586445236875-688af9b46fe6?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw5fHxmYXNoaW9ufGVufDB8fDF8YmxhY2t8MTcxNDgxNDM4N3ww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1586445236875-688af9b46fe6?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw5fHxmYXNoaW9ufGVufDB8fDF8YmxhY2t8MTcxNDgxNDM4N3ww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "50",
+                                "offset_left": "50",
+                                "width": "5136",
+                                "height": "3840"
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
                         },
                         "blocks": []
                     },
@@ -820,12 +1232,12 @@
                         "name": "article-carousel",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "Nappaa inspiraatiota",
-                            "sectionSubtitle": "Tsekkaa mit\u00e4 kaikki lukevat.",
+                            "sectionTitle": "Muotiblogi",
+                            "sectionSubtitle": "Nappaa inspiraatiota blogistamme",
                             "sectionQuickLinkResource": {
                                 "type": "url",
                                 "record_id": "",
-                                "text": "Lue lis\u00e4\u00e4",
+                                "text": "Katso kaikki",
                                 "url": ""
                             },
                             "listType": "recent",
@@ -838,7 +1250,342 @@
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "7",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    }
+                ]
+            },
+            "404": {
+                "sections": [
+                    {
+                        "name": "404-template",
+                        "id": "404-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "product": {
+                "sections": [
+                    {
+                        "name": "product-template",
+                        "id": "product-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "catalog": {
+                "sections": [
+                    {
+                        "name": "catalog-template",
+                        "id": "catalog-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "article": {
+                "sections": [
+                    {
+                        "name": "article-template",
+                        "id": "article-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "category": {
+                "sections": [
+                    {
+                        "name": "category-template",
+                        "id": "category-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "blog": {
+                "sections": [
+                    {
+                        "name": "blog-template",
+                        "id": "blog-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            }
+        },
+        "pages": {
+            "186448": {
+                "sections": [
+                    {
+                        "id": "e2095c0f059ea5890207acf89fbded51",
+                        "title": "Kuva tekstin kanssa",
+                        "name": "image-with-text",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "richtext": "<h1 id=\"isPasted\">Tervetuloa huippumuodin verkkokauppaan<\/h1><p>Veloura on uuden aallon muotiverkkokauppa, joka tuo suomalaisille muodin yst\u00e4ville tuulahduksen kansainv\u00e4lisi\u00e4 trendej\u00e4 suoraan maailman muotip\u00e4\u00e4kaupungeista, kuten Milanosta ja Pariisista. Olemme sitoutuneet tarjoamaan asiakkaillemme vain parhaimmat ja viimeisimm\u00e4t huippumuodin luomukset, jotka ovat valikoituneet huolella muotiviikkojen n\u00e4yt\u00f6slavoilta ja suunnittelijoiden piirustuslaudoilta.<\/p><p>Velouran valikoimaan kuuluvat tarkoin valitut vaatteet, asusteet ja jalkineet, jotka edustavat ajan henke\u00e4 ja uusimpia trendej\u00e4. Jokainen tuote on valikoitunut sen ainutlaatuisen suunnittelun, laadukkaiden materiaalien ja erinomaisen k\u00e4sity\u00f6taitojen ansiosta. Veloura tarjoaa eksklusiivisen mahdollisuuden pukeutua muotimaailman eturivin suunnittelijoiden luomuksiin, olipa kyseess\u00e4 sitten juhlava iltapuku, trendik\u00e4s toimistoasu tai rento viikonloppuvaatetus.<\/p><p>Veloura ei ole vain verkkokauppa; se on portti muodin maailmaan. Tarjoamme asiakkaillemme inspiraatiota, uutisia ja vinkkej\u00e4 siit\u00e4, kuinka integroida kansainv\u00e4liset trendit osaksi pohjoismaista tyyli\u00e4. Meill\u00e4 on silm\u00e4\u00e4 yksityiskohdille ja intohimoa muotia kohtaan, mik\u00e4 n\u00e4kyy kaikessa, mit\u00e4 teemme.<\/p><p>Tutustu Velouran maailmaan ja l\u00f6yd\u00e4 seuraava suosikkiasusi, joka ei ainoastaan kerro tarinaa kansainv\u00e4lisest\u00e4 eleganssista, vaan my\u00f6s juhlistaa yksil\u00f6llist\u00e4 tyyli\u00e4si. Veloura on t\u00e4\u00e4ll\u00e4 vied\u00e4kseen sinut muotimatkalle, josta et halua j\u00e4\u00e4d\u00e4 paitsi. Koe huippumuodin lumo Velouran kanssa ja erottaudu edukseesi miss\u00e4 tahansa tilaisuudessa.<\/p>",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "img": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1587088155172-e9355df99c30?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOXx8cnVud2F5fGVufDB8fDF8fDE3MTUwODAxMDl8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1587088155172-e9355df99c30?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOXx8cnVud2F5fGVufDB8fDF8fDE3MTUwODAxMDl8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "4",
+                                "offset_left": "53",
+                                "width": "5510",
+                                "height": "3840"
+                            },
+                            "rowLayout": "6,6",
+                            "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "textHorizontalAlign": "nil",
+                            "textVerticalAlign": "center",
+                            "btnStyle": "nil",
+                            "imgPosition": "start",
+                            "imgHorizontalAlign": "center",
+                            "imgVerticalAlign": "center",
+                            "imgAspectRatio": "1:1",
+                            "imgFit": true,
+                            "imgEffect": true,
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    }
+                ]
+            },
+            "186473": {
+                "sections": [
+                    {
+                        "id": "bd1e079af87c30bd86766b593f847d01",
+                        "title": "Otsikko",
+                        "name": "heading",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Tyylin\u00e4ytteit\u00e4",
+                            "sectionSubtitle": "Inspiroidu kauden kuumimmista trendeist\u00e4!",
+                            "sectionContainer": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionHeaderFontSizeScale": "1",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "7",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "6dce4166f81a900f386cfec693640414",
+                        "title": "Kuvagalleria",
+                        "name": "image-gallery",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "layout": "9",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0",
+                            "setting_blocks": {
+                                "items": {
+                                    "3136312542826423": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1616348490852-d80c545b4f79?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyMnx8cnVud2F5fGVufDB8fDF8fDE3MTUwODAxMDl8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1616348490852-d80c545b4f79?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyMnx8cnVud2F5fGVufDB8fDF8fDE3MTUwODAxMDl8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "4928",
+                                                "height": "3264"
+                                            }
+                                        }
+                                    },
+                                    "1485272252048968": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1587088155172-e9355df99c30?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOXx8cnVud2F5fGVufDB8fDF8fDE3MTUwODAxMDl8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1587088155172-e9355df99c30?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOXx8cnVud2F5fGVufDB8fDF8fDE3MTUwODAxMDl8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "5510",
+                                                "height": "3840"
+                                            }
+                                        }
+                                    },
+                                    "3497938686528596": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1521875236586-02756e2e55db?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwzfHxjbG90aGluZyUyMGNsb3NldHxlbnwwfHwxfHwxNzE1MDc4MjgwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1521875236586-02756e2e55db?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwzfHxjbG90aGluZyUyMGNsb3NldHxlbnwwfHwxfHwxNzE1MDc4MjgwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "5760",
+                                                "height": "3840"
+                                            }
+                                        }
+                                    },
+                                    "1318417319946211": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1557022971-af40cfaf8f80?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNnx8ZmFzaGlvbiUyMHxlbnwwfDF8MXxibGFja3wxNzE1NjI0MDQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1557022971-af40cfaf8f80?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNnx8ZmFzaGlvbiUyMHxlbnwwfDF8MXxibGFja3wxNzE1NjI0MDQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "5754",
+                                                "height": "3840"
+                                            }
+                                        }
+                                    },
+                                    "8553285446493293": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1593528279571-53f382916cf6?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNHx8ZmFzaGlvbiUyMHxlbnwwfDF8MXxibGFja3wxNzE1NjI0MDQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1593528279571-53f382916cf6?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNHx8ZmFzaGlvbiUyMHxlbnwwfDF8MXxibGFja3wxNzE1NjI0MDQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "2953",
+                                                "height": "1971"
+                                            }
+                                        }
+                                    },
+                                    "3953914839908886": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1574015974293-817f0ebebb74?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwzfHxmYXNoaW9uJTIwfGVufDB8MXwxfGJsYWNrfDE3MTU2MjQwMzl8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1574015974293-817f0ebebb74?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwzfHxmYXNoaW9uJTIwfGVufDB8MXwxfGJsYWNrfDE3MTU2MjQwMzl8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "3241",
+                                                "height": "2080"
+                                            }
+                                        }
+                                    },
+                                    "e3f9a647-035a-4222-9e15-c1f40fbb76de": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1608623643122-ba620a693c3b?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNXx8ZmFzaGlvbiUyMHxlbnwwfDF8MXxibGFja3wxNzE1NjI0MDQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1608623643122-ba620a693c3b?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNXx8ZmFzaGlvbiUyMHxlbnwwfDF8MXxibGFja3wxNzE1NjI0MDQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "4800",
+                                                "height": "3840"
+                                            }
+                                        }
+                                    },
+                                    "1e6c5ea2-e3b8-4e3f-aa14-b46add7b403f": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1593129747951-db31f82963da?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyOXx8ZmFzaGlvbnxlbnwwfDF8MXxibGFja3wxNzE1NjI0MTU5fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1593129747951-db31f82963da?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyOXx8ZmFzaGlvbnxlbnwwfDF8MXxibGFja3wxNzE1NjI0MTU5fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "5184",
+                                                "height": "3456"
+                                            },
+                                            "type": "image",
+                                            "title": "Kuva"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "077c2ab763f113a3dbf1edd2ddd8149b",
+                        "title": "Teksti",
+                        "name": "text",
+                        "settings": {
+                            "richtext": "<p id=\"isPasted\">Kutsumme sinut tutustumaan tyylin\u00e4ytteisiimme, l\u00f6yt\u00e4m\u00e4\u00e4n uutta inspiraatiota ja kokeilemaan rohkeasti uusia trendej\u00e4. P\u00e4ivit\u00e4mme s\u00e4\u00e4nn\u00f6llisesti kuvastomme varmistaaksemme, ett\u00e4 pysyt ajan tasalla muotimaailman jatkuvasti muuttuvista tuulista.<\/p>",
+                            "sectionContainer": "tiny",
+                            "sectionTextAlign": "center",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -1310,6 +2057,7 @@
                                 "sectionSubtitleTag": "h3",
                                 "sectionColorScheme": false,
                                 "sectionAdditionalTitles": false,
+                                "sectionAdditionalText": false,
                                 "sectionPaddingMode": "auto",
                                 "sectionPaddingTop": "0",
                                 "sectionPaddingBottom": "0",
@@ -1412,6 +2160,7 @@
                                 "sectionSubtitleTag": "h3",
                                 "sectionColorScheme": false,
                                 "sectionAdditionalTitles": false,
+                                "sectionAdditionalText": false,
                                 "sectionPaddingMode": "auto",
                                 "sectionPaddingTop": "0",
                                 "sectionPaddingBottom": "0",
@@ -1444,6 +2193,7 @@
                                 "sectionSubtitleTag": "h3",
                                 "sectionColorScheme": "dark",
                                 "sectionAdditionalTitles": false,
+                                "sectionAdditionalText": false,
                                 "sectionPaddingMode": "auto",
                                 "sectionPaddingTop": "0",
                                 "sectionPaddingBottom": "0",
@@ -1590,6 +2340,7 @@
                                 "sectionSubtitleTag": "h3",
                                 "sectionColorScheme": false,
                                 "sectionAdditionalTitles": false,
+                                "sectionAdditionalText": false,
                                 "sectionPaddingMode": "auto",
                                 "sectionPaddingTop": "0",
                                 "sectionPaddingBottom": "0",
@@ -1704,6 +2455,7 @@
                                 "sectionSubtitleTag": "h3",
                                 "sectionColorScheme": false,
                                 "sectionAdditionalTitles": false,
+                                "sectionAdditionalText": false,
                                 "sectionPaddingMode": "auto",
                                 "sectionPaddingTop": "0",
                                 "sectionPaddingBottom": "0",
