@@ -222,83 +222,7 @@
                     "mobileMenuSecondary": "",
                     "mobileNavigationSimple": false,
                     "mobileShowSocialIconsInNavigation": true,
-                    "mobileShowSearchInNavigation": true,
-                    "setting_blocks": {
-                        "megamenus": {
-                            "9ac1033e-45f5-49f9-8e83-6bed72e2fdb2": {
-                                "type": "menu",
-                                "settings": {
-                                    "index": "2",
-                                    "colPerRow": "4",
-                                    "menu": "",
-                                    "promotion1Img": {
-                                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-yellow-bag.jpeg",
-                                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-yellow-bag.jpeg",
-                                        "offset_top": "50",
-                                        "offset_left": "50",
-                                        "width": "2667",
-                                        "height": "4000"
-                                    },
-                                    "promotion1ImgAspectRatio": "16:9",
-                                    "promotion1Link": {
-                                        "type": "url",
-                                        "record_id": "",
-                                        "text": "Kest\u00e4v\u00e4 muoti",
-                                        "url": "",
-                                        "target": "_self"
-                                    },
-                                    "promotion2Img": {
-                                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-woman-bluebg.jpeg",
-                                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-woman-bluebg.jpeg",
-                                        "offset_top": "50",
-                                        "offset_left": "50",
-                                        "width": "4480",
-                                        "height": "6720"
-                                    },
-                                    "promotion2ImgAspectRatio": "16:9",
-                                    "promotion2Link": {
-                                        "type": "url",
-                                        "record_id": "",
-                                        "text": "T\u00e4ydelliset yhdess\u00e4",
-                                        "url": "",
-                                        "target": "_self"
-                                    },
-                                    "promotion3Img": {
-                                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-colorful-woman.jpeg",
-                                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-fashion-colorful-woman.jpeg",
-                                        "offset_top": "50",
-                                        "offset_left": "50",
-                                        "width": "6698",
-                                        "height": "4465"
-                                    },
-                                    "promotion3ImgAspectRatio": "16:9",
-                                    "promotion3Link": {
-                                        "type": "url",
-                                        "record_id": "",
-                                        "text": "Uutta vanhaa",
-                                        "url": "",
-                                        "target": "_self"
-                                    },
-                                    "promotion4Img": {
-                                        "string_value": "https:\/\/images.unsplash.com\/photo-1584216338898-f34d78201414?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
-                                        "src": "https:\/\/images.unsplash.com\/photo-1584216338898-f34d78201414?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8ZmFzaGlvbiUyMHdpbnRlcnxlbnwwfHwxfHwxNzE0ODA5OTQwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
-                                        "offset_top": "50",
-                                        "offset_left": "50",
-                                        "width": "5184",
-                                        "height": "3456"
-                                    },
-                                    "promotion4ImgAspectRatio": "16:9",
-                                    "promotion4Link": {
-                                        "type": "url",
-                                        "record_id": "",
-                                        "text": "Katumuodin parhaat",
-                                        "url": "",
-                                        "target": "_self"
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    "mobileShowSearchInNavigation": true
                 }
             },
             {
@@ -316,9 +240,9 @@
                                 "settings": {
                                     "announcementLink": {
                                         "type": "url",
-                                        "record_id": "",
+                                        "record_id": "15612648",
                                         "text": "Kotimainen verkkokauppa  -  Nopea toimitus  -  Maksamme postikulut yli 100\u20ac tilauksista",
-                                        "url": "",
+                                        "url": "\/tuoteryhma\/muoti",
                                         "target": "_self"
                                     }
                                 }
@@ -390,9 +314,9 @@
                             "sectionSubtitle": "Tutustu uusimpiin trendeihin, jotka on valittu juuri sinua varten. Meill\u00e4 on kaikki, mit\u00e4 tarvitset p\u00e4ivitt\u00e4\u00e4ksesi tyyli\u00e4si joka kausi.",
                             "btnLink": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15612648",
                                 "text": "Shoppaile nyt",
-                                "url": "",
+                                "url": "\/tuoteryhma\/muoti",
                                 "target": "_self"
                             },
                             "imgStart": {
@@ -473,18 +397,19 @@
                             "sectionOverline": "",
                             "sectionTitle": "Mekot",
                             "sectionSubtitle": "Osta kauden kuumia uutuuksia",
+                            "sectionDescription": "",
                             "sectionQuickLinkResource": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15618023",
                                 "text": "Katso kaikki",
-                                "url": ""
+                                "url": "\/tuoteryhma\/mekot"
                             },
-                            "listType": "recent",
+                            "listType": "category",
                             "tagId": "",
                             "category": {
                                 "type": "category",
-                                "id": "",
-                                "name": ""
+                                "id": "1809448",
+                                "name": "Mekot"
                             },
                             "manufacturer": {
                                 "type": "manufacturer",
@@ -539,6 +464,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "8",
                             "sectionPaddingBottom": "0",
@@ -562,12 +488,12 @@
                         "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "Kest\u00e4v\u00e4n muodin edell\u00e4k\u00e4vij\u00e4",
-                            "sectionSubtitle": "Sitoudumme tarjoamaan vain parasta laadukkaiden ja kest\u00e4v\u00e4sti tuotettujen vaatekappaleiden kautta. Tukea tyyli\u00e4si ja planeettaa valinnoillasi.",
+                            "sectionSubtitle": "Sitoudumme tarjoamaan vain parasta laadukkaiden ja kest\u00e4v\u00e4sti tuotettujen vaatekappaleiden kautta. Tue planeettaa valinnoillasi.",
                             "btnLink": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15612648",
                                 "text": "Kest\u00e4v\u00e4t valinnat",
-                                "url": "",
+                                "url": "\/tuoteryhma\/muoti",
                                 "target": "_self"
                             },
                             "sectionBgImg": {
@@ -603,20 +529,21 @@
                         "name": "product-carousel",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "Asusteet",
+                            "sectionTitle": "Laukut",
                             "sectionSubtitle": "Yksil\u00f6i tyylisi upeilla asusteilla",
+                            "sectionDescription": "",
                             "sectionQuickLinkResource": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15638643",
                                 "text": "Katso kaikki",
-                                "url": ""
+                                "url": "\/tuoteryhma\/laukut"
                             },
-                            "listType": "recent",
+                            "listType": "category",
                             "tagId": "",
                             "category": {
                                 "type": "category",
-                                "id": "",
-                                "name": ""
+                                "id": "1810318",
+                                "name": "Laukut"
                             },
                             "manufacturer": {
                                 "type": "manufacturer",
@@ -671,6 +598,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -694,12 +622,12 @@
                         "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "Eksklusiivisia tarjouksia vain Sinulle",
-                            "sectionSubtitle": "Rekister\u00f6idy nyt saadaksesi p\u00e4\u00e4syn j\u00e4senille tarkoitettuihin etuihin ja eksklusiivisiin alennuksiin. Liity muotitietoisten yhteis\u00f6\u00f6mme ja nauti ensimm\u00e4isen\u00e4 tietoa uutuuksistamme ja kampanjoistamme.",
+                            "sectionSubtitle": "Rekister\u00f6idy nyt saadaksesi p\u00e4\u00e4syn j\u00e4senille tarkoitettuihin etuihin ja eksklusiivisiin alennuksiin. Liity muotitietoisten yhteis\u00f6\u00f6mme ja saat ensimm\u00e4isen\u00e4 tietoa uutuuksistamme.",
                             "btnLink": {
                                 "type": "url",
                                 "record_id": "",
                                 "text": "Liity mukaan",
-                                "url": "",
+                                "url": "\/rekisteroidy",
                                 "target": "_self"
                             },
                             "sectionBgImg": {
@@ -737,18 +665,19 @@
                             "sectionOverline": "",
                             "sectionTitle": "Keng\u00e4t",
                             "sectionSubtitle": "Tyylikk\u00e4\u00e4t keng\u00e4t viimeistelev\u00e4t kokonaisuuden",
+                            "sectionDescription": "",
                             "sectionQuickLinkResource": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15623858",
                                 "text": "Katso kaikki",
-                                "url": ""
+                                "url": "\/tuoteryhma\/kengat"
                             },
-                            "listType": "recent",
+                            "listType": "category",
                             "tagId": "",
                             "category": {
                                 "type": "category",
-                                "id": "",
-                                "name": ""
+                                "id": "1809693",
+                                "name": "Keng\u00e4t"
                             },
                             "manufacturer": {
                                 "type": "manufacturer",
@@ -803,6 +732,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -837,7 +767,7 @@
                             "style_custom_color": "#f3f5f6",
                             "sectionPaddingMode": "custom",
                             "sectionPaddingTop": "3",
-                            "sectionPaddingBottom": "5",
+                            "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
                                 "src": "",
@@ -852,14 +782,14 @@
                         "blocks": []
                     },
                     {
-                        "id": "09e5981f31466ab556b011d69206b674",
+                        "id": "54fc54a8b485d66ae4a6f9f75e0cfe41",
                         "title": "Tuotemainos",
                         "name": "product-promotion",
                         "settings": {
                             "product": {
                                 "type": "product",
-                                "id": "26239528",
-                                "name": "Painokuvioitu napitettava midimittainen camimekko palm leaf"
+                                "id": "26251348",
+                                "name": "Fashion Bag - SAGE SILVER"
                             },
                             "showManufacturer": true,
                             "showPromotion": true,
@@ -871,9 +801,9 @@
                             "btnStyle": "nil",
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
-                            "sectionPaddingMode": "custom",
-                            "sectionPaddingTop": "2",
-                            "sectionPaddingBottom": "9",
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
                                 "src": "",
@@ -1335,6 +1265,17 @@
                         "sticky": true
                     }
                 ]
+            },
+            "cart": {
+                "sections": [
+                    {
+                        "name": "cart-template",
+                        "id": "cart-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
             }
         },
         "pages": {
@@ -1403,45 +1344,14 @@
             "186473": {
                 "sections": [
                     {
-                        "id": "bd1e079af87c30bd86766b593f847d01",
-                        "title": "Otsikko",
-                        "name": "heading",
-                        "settings": {
-                            "sectionOverline": "",
-                            "sectionTitle": "Tyylin\u00e4ytteit\u00e4",
-                            "sectionSubtitle": "Inspiroidu kauden kuumimmista trendeist\u00e4!",
-                            "sectionContainer": "nil",
-                            "sectionHeaderTextAlign": "nil",
-                            "sectionHeaderFontSizeScale": "1",
-                            "sectionOverlineTag": "h3",
-                            "sectionTitleTag": "h2",
-                            "sectionSubtitleTag": "h3",
-                            "sectionColorScheme": false,
-                            "style_custom_color": "#f3f5f6",
-                            "sectionPaddingMode": "custom",
-                            "sectionPaddingTop": "7",
-                            "sectionPaddingBottom": "0",
-                            "sectionBgImg": {
-                                "string_value": "",
-                                "src": "",
-                                "offset_top": "",
-                                "offset_left": "",
-                                "width": "",
-                                "height": ""
-                            },
-                            "sectionBgImgDimming": "0",
-                            "sectionBgImgBlur": "0"
-                        },
-                        "blocks": []
-                    },
-                    {
                         "id": "6dce4166f81a900f386cfec693640414",
                         "title": "Kuvagalleria",
                         "name": "image-gallery",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "",
-                            "sectionSubtitle": "",
+                            "sectionTitle": "Kauden Trendit",
+                            "sectionSubtitle": "Inspiroidu kauden kuumimmista trendeist\u00e4!",
+                            "sectionDescription": "",
                             "layout": "9",
                             "sectionHeaderTextAlign": "nil",
                             "sectionOverlineTag": "h3",
@@ -1450,6 +1360,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "custom",
                             "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
@@ -1566,9 +1477,7 @@
                                                 "offset_left": "50",
                                                 "width": "5184",
                                                 "height": "3456"
-                                            },
-                                            "type": "image",
-                                            "title": "Kuva"
+                                            }
                                         }
                                     }
                                 }
