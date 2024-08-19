@@ -1231,6 +1231,7 @@
                             "showBreadcrumbs": true,
                             "showBuyNowButton": true,
                             "showQuantitySelect": true,
+                            "showQuantityUnit": false,
                             "showProductQuestionForm": true,
                             "showLowestPrice": true,
                             "showVariantSelectionAsDropdown": false,
