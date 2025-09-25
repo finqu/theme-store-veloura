@@ -7913,7 +7913,23 @@
                         "announcementStatus": true,
                         "announcementTextAlign": "center",
                         "announcementVisibility": "all",
-                        "carouselAutoplaySpeed": "3"
+                        "carouselAutoplaySpeed": "3",
+                        "setting_blocks": {
+                            "items": {
+                                "07acbdce-1a2b-4e24-b52e-4fade3565411": {
+                                    "type": "text",
+                                    "settings": {
+                                        "announcementLink": {
+                                            "type": "url",
+                                            "record_id": "",
+                                            "text": "Create your first announcement! Let your customers know about offers and events.",
+                                            "url": "",
+                                            "target": "_self"
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 },
                 {
