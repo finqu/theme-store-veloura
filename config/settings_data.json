@@ -3677,7 +3677,7 @@
                                     "height": "3840"
                                 },
                                 "imgMobile": "",
-                                "imgDimming": "20",
+                                "imgDimming": "30",
                                 "imgBlur": "0",
                                 "sectionColorScheme": "dark",
                                 "style_custom_color": "#f3f5f6",
@@ -3691,7 +3691,60 @@
                                 "contentMaxWidth": "60",
                                 "textHorizontalAlign": "center",
                                 "textVerticalAlign": "center"
-                            }
+                            },
+                            "blocks": [
+                                {
+                                    "name": "heading",
+                                    "container": "hero-title",
+                                    "settings": {
+                                        "title": {
+                                            "type": "translation",
+                                            "key": "frontpage_presets.products_first.hero_title",
+                                            "string_value": "Find what feels right for you."
+                                        },
+                                        "subtitle": {
+                                            "type": "translation",
+                                            "key": "frontpage_presets.products_first.hero_subtitle",
+                                            "string_value": "Explore the collection, compare your options, and choose with confidence."
+                                        },
+                                        "overline": {
+                                            "type": "translation",
+                                            "key": "frontpage_presets.products_first.hero_overline",
+                                            "string_value": "Your next favorite is here"
+                                        }
+                                    },
+                                    "id": "ee92269bb1088b87b5d1818fcdc1a967"
+                                },
+                                {
+                                    "name": "button-group",
+                                    "container": "hero-actions",
+                                    "settings": {
+                                        "setting_blocks": {
+                                            "buttons": [
+                                                {
+                                                    "type": "button",
+                                                    "settings": {
+                                                        "btnLink": {
+                                                            "type": "url",
+                                                            "record_id": "",
+                                                            "url": "",
+                                                            "target": "_self",
+                                                            "text": {
+                                                                "type": "translation",
+                                                                "key": "frontpage_presets.products_first.cta_primary",
+                                                                "string_value": "Shop the collection"
+                                                            }
+                                                        },
+                                                        "btnVariant": "filled",
+                                                        "btnTheme": "primary"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "id": "802b0d8da9824de902dbc80043244724"
+                                }
+                            ]
                         },
                         {
                             "id": "4b5afd7e5197eb1aa0a0f25188431d68",
@@ -3727,6 +3780,24 @@
                                 "productPerRow": 3
                             },
                             "blocks": [
+                                {
+                                    "name": "heading",
+                                    "container": "header",
+                                    "settings": {
+                                        "title": {
+                                            "type": "translation",
+                                            "key": "frontpage_presets.products_first.products_title",
+                                            "string_value": "Start with our favorites"
+                                        },
+                                        "overline": {
+                                            "type": "translation",
+                                            "key": "frontpage_presets.products_first.products_overline",
+                                            "string_value": "Worth a closer look"
+                                        },
+                                        "subtitle": ""
+                                    },
+                                    "id": "aebf0c5512d92ac3b9f55f2e14604e18"
+                                },
                                 {
                                     "id": "section-product-card",
                                     "name": "product-list-item",
@@ -4360,7 +4431,7 @@
                                         },
                                         "subtitle": ""
                                     },
-                                    "id": "d0d1b13552783137d6501f146b4e297f"
+                                    "id": "aebf0c5512d92ac3b9f55f2e14604e18"
                                 },
                                 {
                                     "id": "section-product-card",
@@ -5289,7 +5360,7 @@
                                         },
                                         "subtitle": ""
                                     },
-                                    "id": "b4ce519b14a3178d0ac179d6658e84dc"
+                                    "id": "aebf0c5512d92ac3b9f55f2e14604e18"
                                 },
                                 {
                                     "id": "section-product-card",
@@ -6060,7 +6131,7 @@
                                         },
                                         "subtitle": ""
                                     },
-                                    "id": "5fcc2a8fdf230c7880ef8653527f0815"
+                                    "id": "aebf0c5512d92ac3b9f55f2e14604e18"
                                 },
                                 {
                                     "id": "section-product-card",
